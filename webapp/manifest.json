@@ -1,0 +1,59 @@
+{
+	"_version": "1.1.0",
+	"sap.app": {
+		"_version": "1.1.0",
+		"id": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Extension",
+		"type": "application",
+		"applicationVersion": {
+			"version": "1.0.0"
+		},
+		"title": "{{xtit.appTitle}}"
+	},
+	"sap.ui": {
+		"_version": "1.1.0",
+		"technology": "UI5",
+		"icons": {
+			"icon": "",
+			"favIcon": ""
+		},
+		"deviceTypes": {
+			"desktop": true,
+			"tablet": true,
+			"phone": true
+		},
+		"supportedThemes": [
+			"sap_hcb",
+			"sap_bluecrystal",
+			"sap_belize"
+		]
+	},
+	"sap.ui5": {
+		"_version": "1.1.0",
+		"dependencies": {
+			"minUI5Version": "1.60.17"
+		},
+		"componentUsages": {
+			"attachmentReuseComponent": {
+				"name": "sap.se.mi.plm.lib.attachmentservice.attachment",
+				"settings": {
+					"lazy": false
+				}
+			}
+		},
+		"extends": {
+			"component": "i2d.eam.malfunction.manages1",
+			"extensions": {
+				"sap.ui.viewReplacements": {
+					"i2d.eam.malfunction.manages1.view.fragment.EditMalfunctionDetailsDialog": {
+						"viewName": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Extension.view.fragment.EditMalfunctionDetailsDialogCustom",
+						"type": "XML"
+					}
+				}
+			}
+		},
+		"contentDensities": {
+			"compact": true,
+			"cozy": true
+		}
+	}
+}
