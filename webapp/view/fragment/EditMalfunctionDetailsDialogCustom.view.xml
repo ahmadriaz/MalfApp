@@ -36,6 +36,7 @@
 					<Label text="{i18n>xtit.damageDescription}"/>
 					<Input id="malfuncManageInputDamageDesc" value="{MaintNotifItemText}" change="onDescriptionChange"
 						maxLength="{ path: '/#C_MaintNotificationItemTPType/MaintNotifItemText/@maxLength', formatter: '.formatter.convertStringToInteger' }"/>
+					<Button id="malfuncManageInputDamageDescButton" tooltip="{i18n>xtit.longText}" text="{i18n>xtit.longText}"/>
 				</f:content>
 			</f:SimpleForm>
 			<!-- Cause Details -->

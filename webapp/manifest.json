@@ -7,7 +7,8 @@
 		"applicationVersion": {
 			"version": "1.0.0"
 		},
-		"title": "{{xtit.appTitle}}"
+		"title": "{{xtit.appTitle}}",
+		"i18n": "i18n/i18n.properties"
 	},
 	"sap.ui": {
 		"_version": "1.1.0",
@@ -54,6 +55,14 @@
 		"contentDensities": {
 			"compact": true,
 			"cozy": true
+		},
+		"models": {
+			"i18n": {
+				"type": "sap.ui.model.resource.ResourceModel",
+				"settings": {
+					"bundleName": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Extension.i18n.i18n"
+				}
+			}
 		}
 	}
 }
