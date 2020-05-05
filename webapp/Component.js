@@ -1,4 +1,4 @@
-jQuery.sap.declare("i2d.eam.malfunction.manages1.EAM_MALF_MANS1Extension.Component");
+jQuery.sap.declare("i2d.eam.malfunction.manages1.EAM_MALF_MANS1Ext.Component");
 
 // use the load function for getting the optimized preload file if present
 sap.ui.component.load({
@@ -9,7 +9,7 @@ sap.ui.component.load({
 		// extension application is deployed with customer namespace
 });
 
-this.i2d.eam.malfunction.manages1.Component.extend("i2d.eam.malfunction.manages1.EAM_MALF_MANS1Extension.Component", {
+this.i2d.eam.malfunction.manages1.Component.extend("i2d.eam.malfunction.manages1.EAM_MALF_MANS1Ext.Component", {
 	metadata: {
 		manifest: "json"
 	}

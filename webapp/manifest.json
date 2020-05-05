@@ -2,7 +2,7 @@
 	"_version": "1.1.0",
 	"sap.app": {
 		"_version": "1.1.0",
-		"id": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Extension",
+		"id": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Ext",
 		"type": "application",
 		"applicationVersion": {
 			"version": "1.0.0"
@@ -46,7 +46,7 @@
 			"extensions": {
 				"sap.ui.viewReplacements": {
 					"i2d.eam.malfunction.manages1.view.fragment.EditMalfunctionDetailsDialog": {
-						"viewName": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Extension.view.fragment.EditMalfunctionDetailsDialogCustom",
+						"viewName": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Ext.view.fragment.EditMalfunctionDetailsDialogCustom",
 						"type": "XML"
 					}
 				}
@@ -60,9 +60,13 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Extension.i18n.i18n"
+					"bundleName": "i2d.eam.malfunction.manages1.EAM_MALF_MANS1Ext.i18n.i18n"
 				}
 			}
 		}
+	},
+	"sap.platform.abap": {
+		"uri": "/sap/bc/ui5_ui5/sap/zeam_malf_mans1/webapp",
+		"_version": "1.1.0"
 	}
 }
